@@ -12,12 +12,11 @@
 <input type = "number" required>
 <p>DOB</p>
 <input type="date" required>
-<p>Gender:</p>
-<input type = "radio" id="male">
-<label for ="male">Male</label><br>
-<input type = "radio" id="female">
-<label for ="female">Female</label><br>
-<input type = "submit" value ="submit">
+<label for = "gender">Choose a Gender:</label></br>
+<select id = "gender" name = "gender" size = "2" multiple></br>
+<option value = "male">Male</option>
+<option value = "Female">Female</option></br>
+<button type = "button">Submit</button>
 </form>
 </body>
 </html>
