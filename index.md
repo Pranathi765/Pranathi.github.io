@@ -11,7 +11,7 @@
 <p> Mobile:</p>
 <input type = "number" required>
 <p>DOB</p>
->input type="date" required>
+<input type="date" required>
 <p>Gender:</p>
 <input type = "radio" id="male">
 <label for ="male">Male</label><br>
